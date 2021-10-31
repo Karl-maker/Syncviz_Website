@@ -1,0 +1,129 @@
+header {
+  display: flex;
+  align-items: center;
+  background: #20232a;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-right-hand {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-hand button {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #78a0b3;
+  color: #ffff;
+  background-color: #78a0b3;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.header-right-hand #github-button img {
+  width: 1.5em;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.header-right-hand #github-button img:hover {
+  opacity: 0.5;
+}
+
+.header-right-hand button:hover {
+  animation: colorAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.header-left-hand {
+  display: flex;
+  align-items: center;
+}
+
+.header-left-hand img {
+  width: 5em;
+  margin-left: 1em;
+}
+
+.header-left-hand a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+}
+
+.header-left-hand a h3 {
+  margin-left: 1em;
+}
+
+.header-left-hand a h3:hover {
+  color: #61dafb;
+}
+
+.header-left-hand #header-nav-button img {
+  width: 1.5em;
+  background-color: #18191a;
+  border-radius: 40px;
+  padding: 0.5em;
+}
+
+.header-left-hand #header-nav-button img:hover {
+  opacity: 0.5;
+}
+
+@keyframes colorAnimation {
+  0% {
+    border-color: #78a0b3;
+    color: #ffff;
+    background-color: #78a0b3;
+  }
+  100% {
+    border-color: #78a0b3;
+    color: #78a0b3;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-right-hand #github-button {
+    display: none;
+  }
+
+  .header-left-hand #header-nav-button img {
+    width: 2em;
+    background-color: #18191a;
+    border-radius: 40px;
+    padding: 0.5em;
+  }
+
+  .header-right-hand button {
+    margin-right: 1em;
+  }
+
+  .header-left-hand h3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .header-right-hand #github-button {
+    display: none;
+  }
+
+  .header-left-hand #header-nav-button img {
+    width: 2em;
+    background-color: #18191a;
+    border-radius: 40px;
+    padding: 0.5em;
+  }
+
+  .header-right-hand button {
+    display: none;
+  }
+
+  .header-left-hand h3 {
+    display: none;
+  }
+}

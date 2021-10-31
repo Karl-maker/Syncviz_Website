@@ -1,0 +1,41 @@
+footer {
+  background-color: #20232a;
+
+  margin-top: 1em;
+}
+
+footer .footer-center {
+  text-align: center;
+  padding: 2em;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
+footer img {
+  width: 4em;
+}
+
+footer h5,
+h4 {
+  color: #ffff;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.8em;
+  margin-top: 0;
+  color: #b2bec3;
+}
+
+footer a {
+  color: #b2bec3;
+}
