@@ -105,6 +105,10 @@ header {
   .header-left-hand h3 {
     display: none;
   }
+
+  header {
+    position: fixed;
+  }
 }
 
 @media screen and (max-width: 280px) {

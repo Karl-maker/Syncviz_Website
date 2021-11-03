@@ -10,9 +10,22 @@ Footer {
 
 */
 
+const NAVIGATION_CONTENT =
+  "<div class='side-nav' id='side-nav'>" +
+  "<nav>" +
+  "<ul>" +
+  "<li onClick='toggleNavBar()' style='margin-bottom: 3em'>Close Bar</li>" +
+  "<li><a href='#'>Scenes</a></li>" +
+  "<li><a href='#'>Create</a></li>" +
+  "<li><a href='#'>Learn</a></li>" +
+  "<li><a href='#'>Contact</a></li>" +
+  "</ul>" +
+  "</nav>" +
+  "</div>";
+
 const HEADER_CONTENT =
   "<div class='header-left-hand'>" +
-  "<div id ='header-nav-button'>" +
+  "<div id ='header-nav-button' onClick='toggleNavBar()'>" +
   "<img src='img/icons/3-bars-icon.png' />" +
   "</div>" +
   "<a href='index.html'>" +
@@ -20,14 +33,13 @@ const HEADER_CONTENT =
   "<h3>Syncviz</h3>" +
   "</a>" +
   "</div>" +
+  NAVIGATION_CONTENT +
   "<div class='header-right-hand'>" +
   "<button>Learn More</button>" +
   "<a href='https://github.com/Karl-maker?tab=repositories'>" +
   "<div id='github-button'><img src='img/icons/github.png' /></div>" +
   "</a>" +
   "</div>";
-
-const NAVIGATION_CONTENT = "";
 
 const FOOTER_CONTENT =
   "<div class='footer-center'>" +
@@ -40,4 +52,3 @@ const FOOTER_CONTENT =
 
 document.getElementById("header").innerHTML = HEADER_CONTENT;
 document.getElementById("footer").innerHTML = FOOTER_CONTENT;
-document.getElementById("navigation").innerHTML = NAVIGATION_CONTENT;

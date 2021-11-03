@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 body {
+  background-color: #18191a;
+  height: 100%;
 }
 
 h1,
@@ -13,6 +15,19 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-p {
+p,
+li {
   font-family: "Inter", sans-serif;
+}
+
+#body-content {
+  margin: 0;
+  transition: margin-left 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  #body-content {
+    margin: 0;
+    transition: margin-left 0.5s;
+  }
 }
