@@ -14,7 +14,7 @@
 @media screen and (max-width: 1000px) {
   .side-nav {
     height: 100%;
-    width: 0;
+    width: 0%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -26,17 +26,42 @@
     border-right: 0px;
   }
 
-  .side-nav li {
+  .side-nav .close {
     border-radius: 5px;
     padding: 0.5em;
     margin-bottom: 1em;
     list-style: none;
     color: #fff;
     opacity: 0.7;
-    margin-left: -1.5em;
-    margin-right: 1em;
     background-color: #242526;
     white-space: nowrap;
+    margin: 1em;
+    border: 0px solid;
+    align-items: center;
+  }
+
+  .side-nav .close svg {
+  }
+
+  .side-nav ul {
+    margin: 0px;
+    padding: 0;
+    margin-top: 1em;
+    justify-content: center;
+  }
+
+  .side-nav li {
+    padding: 1em;
+    margin-bottom: 0em;
+    list-style: none;
+    color: #fff;
+    opacity: 0.7;
+    background-color: #111;
+    white-space: nowrap;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #242526;
+    padding-left: 2em;
   }
 }
 

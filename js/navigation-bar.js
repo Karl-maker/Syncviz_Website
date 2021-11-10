@@ -14,7 +14,7 @@ const openNavBar = () => {
   let deviceWidth = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
   //For Mobile Devices to not push body
-  if (deviceWidth >= 600) {
+  if (deviceWidth >= 1000) {
     document.getElementById("side-nav").style.width = `${DESKTOPSIDEBARWIDTH}%`;
     document.getElementById(
       "body-content"
