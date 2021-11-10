@@ -14,10 +14,10 @@ const NAVIGATION_CONTENT =
   "<div class='side-nav' id='side-nav'>" +
   "<nav>" +
   "<ul>" +
-  "<li onClick='toggleNavBar()' style='margin-bottom: 3em'>Close Bar</li>" +
+  "<li onClick='toggleNavBar()' class='close' style='margin-bottom: 3em'>Close Bar</li>" +
   "<li><a href='#'>Scenes</a></li>" +
   "<li><a href='#'>Create</a></li>" +
-  "<li><a href='#'>Learn</a></li>" +
+  "<li id='learn-more'><a href='#'>Learn</a></li>" +
   "<li><a href='#'>Contact</a></li>" +
   "</ul>" +
   "</nav>" +
