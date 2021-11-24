@@ -21,7 +21,7 @@ const NAVIGATION_CONTENT =
   "<li><a href='#'>Scenes</a></li>" +
   "<li><a href='#'>Create</a></li>" +
   "<li id='learn-more'><a href='#'>Learn</a></li>" +
-  "<li><a href='#'>Contact</a></li>" +
+  "<li><a href='contact.html'>Contact</a></li>" +
   "</ul>" +
   "</nav>" +
   "</div>";
@@ -33,7 +33,7 @@ const HEADER_CONTENT =
   "</div>" +
   "<a href='index.html'>" +
   "<img src='img/logos/logo192.png' />" +
-  "<h3>Syncviz</h3>" +
+  "<h1>Syncviz</h1>" +
   "</a>" +
   "</div>" +
   NAVIGATION_CONTENT +
@@ -48,7 +48,7 @@ const FOOTER_CONTENT =
   "<div class='footer-center'>" +
   "<div class='footer-logo'>" +
   "<img src='img/logos/logo192.png' />" +
-  "<h4>The Syncviz Company</h4>" +
+  "<p>The Syncviz Company</p>" +
   "</div>" +
   "<p>© 2021 Syncviz, by Karl-Johan Bailey 2018121008.</p>" +
   "</div>";

@@ -1,0 +1,40 @@
+main {
+  padding-top: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 10em;
+}
+
+main h3 {
+  color: #fff;
+}
+
+main ul {
+  margin: 0;
+  padding: 0;
+}
+
+main span {
+  font-weight: bold;
+  color: #ff7675;
+}
+
+main h3 {
+  font-weight: bold;
+}
+
+main li {
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+  main span {
+    font-weight: bold;
+    color: #ff7675;
+  }
+
+  main {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

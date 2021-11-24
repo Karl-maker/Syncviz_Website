@@ -1,0 +1,98 @@
+.first-article {
+  background-image: url(../img/content/pexels-luis-quintero-2471234.jpg);
+  background-color: #cccccc;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-article h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+}
+
+.first-article .headline {
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 60%;
+}
+
+.first-article button {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #fff;
+  color: black;
+  background-color: #fff;
+  padding: 0.5em;
+  font-size: 0.5em;
+  width: 200px;
+  margin-left: 1em;
+}
+
+.first-article button:hover {
+  animation: firstArticleButtonAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes firstArticleButtonAnimation {
+  0% {
+    border-color: #ffff;
+    color: black;
+    background-color: #ffff;
+  }
+  100% {
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+.second-article {
+  margin: 0 auto;
+  min-height: 500px;
+  width: 60%;
+  margin-top: 100px;
+}
+
+.second-article .karl {
+  text-align: center;
+}
+
+.second-article .karl img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.second-article .karl p {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+main span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .first-article {
+    text-align: center;
+  }
+
+  .first-article .headline {
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 95%;
+  }
+
+  .first-article button {
+    font-size: 0.5em;
+    width: 250px;
+    margin-left: 1em;
+  }
+}

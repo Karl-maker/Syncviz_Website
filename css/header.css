@@ -3,7 +3,8 @@ header {
   align-items: center;
   background: #18191a;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header-right-hand {
@@ -21,6 +22,7 @@ header {
   font-size: 1em;
   width: 120px;
 }
+
 .header-right-hand #github-button img {
   width: 1.5em;
   margin-left: 1em;
@@ -43,7 +45,7 @@ header {
 }
 
 .header-left-hand img {
-  width: 5em;
+  width: 7em;
   margin-left: 1em;
 }
 
@@ -54,11 +56,13 @@ header {
   align-items: center;
 }
 
-.header-left-hand a h3 {
-  margin-left: 1em;
+.header-left-hand a h1 {
+  margin-left: 0.5em;
+  margin-top: 0.9em;
+  font-size: 2em;
 }
 
-.header-left-hand a h3:hover {
+.header-left-hand a h1:hover {
   color: #61dafb;
 }
 
@@ -102,12 +106,13 @@ header {
     margin-right: 1em;
   }
 
-  .header-left-hand h3 {
+  .header-left-hand h1 {
     display: none;
   }
 
   header {
     position: fixed;
+    width: 100%;
   }
 }
 
@@ -127,7 +132,7 @@ header {
     display: none;
   }
 
-  .header-left-hand h3 {
+  .header-left-hand h1 {
     display: none;
   }
 }

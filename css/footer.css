@@ -19,6 +19,13 @@ footer .footer-center {
   justify-content: center;
   opacity: 0.5;
   margin-bottom: 0;
+  align-items: center;
+}
+
+.footer-logo p {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1em;
 }
 
 .footer-logo:hover {
