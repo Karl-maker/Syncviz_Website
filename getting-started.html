@@ -10,6 +10,11 @@
       content="3D View Sharing For Collabration And Synchronicity"
     />
     <meta name="author" content="Karl-Johan Bailey" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/logos/logo192.png"
+    />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/body.css" />
     <link rel="stylesheet" href="css/header.css" />
@@ -25,7 +30,7 @@
         <h3><strong>Getting Started</strong></h3>
         <form>
           <input type="text" id="name" name="name" placeholder="Name" />
-          <input type="email" id="email" name="email" placeholder="Email" />
+          <input type="text" id="email" name="email" placeholder="Email" />
           <input
             type="text"
             id="address"
@@ -39,12 +44,19 @@
             placeholder="Phone Number"
           />
           <br />
-          <button id="submit-button">Send</button>
+          <p id="prompt"></p>
+          <input
+            id="submit-button"
+            type="button"
+            value="Submit"
+            onclick="Validate()"
+          />
         </form>
       </div>
     </main>
     <footer id="footer"></footer>
   </body>
+  <script src="./js/validation.js"></script>
   <script src="./js/body-content.js"></script>
   <script src="./js/navigation-bar.js"></script>
 </html>

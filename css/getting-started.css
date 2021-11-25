@@ -51,6 +51,7 @@ input:focus {
   font-size: 1.3em;
   width: 200px;
   margin-top: 2em;
+  height: 50px;
 }
 
 #submit-button:hover {
