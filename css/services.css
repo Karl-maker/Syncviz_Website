@@ -1,0 +1,45 @@
+main {
+  height: 700px;
+  background-image: url(../img/content/pexels-luis-quintero-2471234.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  overflow-y: auto;
+}
+
+main li {
+  width: 80%;
+  background-color: #dfe6e9;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+main li h3,
+p {
+  color: #2d3436;
+}
+
+main h2 {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    padding-top: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  main ul {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -18,9 +18,10 @@ const NAVIGATION_CONTENT =
   "<svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' fill='currentColor' class='bi bi-x-square-fill' viewBox='0 0 16 16'>" +
   "<path d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z'/>" +
   "</svg>  Close Bar</li>" +
-  "<li><a href='#'>Scenes</a></li>" +
-  "<li><a href='#'>Create</a></li>" +
-  "<li id='learn-more'><a href='#'>Learn</a></li>" +
+  "<li><a href='services.html'>Services</a></li>" +
+  "<li><a href='showcase.html'>Showcase</a></li>" +
+  "<li><a href='getting-started.html'>Get Started</a></li>" +
+  "<li id='learn-more'><a href='learn-more.html'>Learn</a></li>" +
   "<li><a href='contact.html'>Contact</a></li>" +
   "</ul>" +
   "</nav>" +
@@ -38,7 +39,7 @@ const HEADER_CONTENT =
   "</div>" +
   NAVIGATION_CONTENT +
   "<div class='header-right-hand'>" +
-  "<button>Learn More</button>" +
+  "<a href='learn-more.html'><button>Learn More</button></a>" +
   "<a href='https://github.com/Karl-maker?tab=repositories'>" +
   "<div id='github-button'><img src='img/icons/github.png' /></div>" +
   "</a>" +

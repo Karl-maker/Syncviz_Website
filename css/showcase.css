@@ -1,0 +1,31 @@
+#main-background {
+  background-color: #cccccc;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  padding-top: 200px;
+}
+
+#main-background p {
+  font-size: 2em;
+  width: 60%;
+  color: black;
+}
+
+#main-background:hover {
+}
+
+@media screen and (max-width: 1000px) {
+  #main-background {
+    padding-top: 10em;
+    text-align: center;
+  }
+
+  #main-background p {
+    font-size: 2em;
+    width: 100%;
+    color: black;
+  }
+}

@@ -1,0 +1,80 @@
+main h3 {
+  color: #fff;
+}
+
+main {
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-bottom: 10em;
+  padding-top: 10em;
+  background-image: url(../img/content/pexels-steve-johnson-1509534.jpg);
+  background-color: #cccccc;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .main-area {
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: transparent;
+  background-color: #bdc3c7;
+  padding: 0.5em;
+  font-size: 1em;
+  color: #2d3436;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  outline: none;
+  margin: 2em;
+}
+
+input:focus {
+  background: #fff;
+}
+
+#submit-button {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #bdc3c7;
+  color: #2c3e50;
+  background-color: #bdc3c7;
+  padding: 0.5em;
+  font-size: 1.3em;
+  width: 200px;
+  margin-top: 2em;
+}
+
+#submit-button:hover {
+  animation: submitButtonButtonAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes submitButtonButtonAnimation {
+  0% {
+    border-color: #bdc3c7;
+    color: #2c3e50;
+    background-color: #bdc3c7;
+  }
+  100% {
+    border-color: #bdc3c7;
+    color: #bdc3c7;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}

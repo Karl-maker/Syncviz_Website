@@ -1,5 +1,5 @@
 main {
-  padding-top: 5em;
+  padding-top: 6.5em;
   padding-left: 10em;
   padding-right: 10em;
   padding-bottom: 10em;
@@ -34,6 +34,7 @@ main li {
   }
 
   main {
+    padding-top: 6.5em;
     padding-left: 1em;
     padding-right: 1em;
   }

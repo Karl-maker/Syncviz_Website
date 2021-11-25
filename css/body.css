@@ -4,6 +4,9 @@
 body {
   background-color: #18191a;
   height: 100%;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-appearance: none;
 }
 
 /* Typography
@@ -92,6 +95,19 @@ li {
 
 ul {
   list-style: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+span {
+  text-decoration: none;
+  color: inherit;
 }
 
 #body-content {
